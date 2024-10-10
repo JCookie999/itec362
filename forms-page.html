@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Electronic Waste - Form Page</title>
+</head>
+<body>
+    <!-- Header section with name, date, and assignment title -->
+    <header>
+        <h1>Jacob Smith</h1>
+        <p>Date: 29th September 2024</p>
+        <p>Assignment: Create and Validate HTML Website Assignment</p>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section>
+            <h2>Contact Us with Your Questions</h2>
+            <p>If you have any questions about electronic waste, Jacob Smith is here to help! Please fill out the form below. You can also upload a document related to your question.</p>
+            <form action="/submit-question" method="POST" enctype="multipart/form-data">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" value="" required><br><br>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" value="exampleemail@gmail.com" required><br><br>
+                
+                <label for="question">Your Question:</label><br>
+                <textarea id="question" name="question" rows="5" cols="40" required></textarea><br><br>
+                
+                <label for="file">Upload a related document (optional):</label>
+                <input type="file" id="file" name="file"><br><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <section>
+            <h2>Resources on Electronic Waste</h2>
+            <ul>
+                <li><a href="https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)" target="_blank">WHO: Electronic Waste (E-waste)</a></li>
+                <li><a href="https://www.epa.gov/international-cooperation/cleaning-electronic-waste-e-waste" target="_blank">EPA: Cleaning Electronic Waste</a></li>
+                <li><a href="https://www.nhm.ac.uk/discover/what-is-ewaste-and-what-can-we-do-about-it.html" target="_blank">NHM: What is E-waste and What Can We Do About It?</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jacob Smith</p>
+    </footer>
+</body>
+</html>
