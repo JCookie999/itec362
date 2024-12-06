@@ -1,0 +1,98 @@
+/* External Stylesheet for Electronic Waste Website - Tech Style
+Jacob Smith  10-20-24 external style sheet assignment*/
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Sleek, tech-style font */
+    background-color: #f0f4f8; /* Light grey for a modern feel */
+    color: #333; /* Dark grey text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #1a1a1d; /* Dark grey/black header */
+    color: #f1f1f1; /* White text for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    background-color: #ffffff; /* White background for content readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for modern look */
+    margin: 20px;
+    border-radius: 8px; /* Rounded corners for a polished appearance */
+}
+
+main h2 {
+    color: #0066cc; /* Tech-inspired blue for headers */
+}
+
+main p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 4px; /* Rounded edges for smooth look */
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1a1a1d;
+    color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Form Page Specific Styles */
+form {
+    background-color: #e9eff6; /* Slight blue tint background for form sections */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5; /* Darker shade on hover */
+}
+
+/* Hyperlink Styles */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
